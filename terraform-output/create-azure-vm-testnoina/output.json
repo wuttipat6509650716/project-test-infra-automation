@@ -3,7 +3,7 @@ terraform output -json
   "public_ip": {
     "sensitive": false,
     "type": "string",
-    "value": "4.194.193.90"
+    "value": "4.193.232.103"
   },
   "vm_id": {
     "sensitive": false,
