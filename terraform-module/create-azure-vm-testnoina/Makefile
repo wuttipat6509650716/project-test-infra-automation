@@ -3,9 +3,6 @@
 
 CONFIG_FILE ?= ./config.json
 
-plan: init
-	terraform plan -var-file=$(CONFIG_FILE) -out=tfplan
-
 init:
 	terraform init
 
