@@ -1,1 +1,13 @@
-nothing
+terraform output -json
+{
+  "public_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "4.194.59.199"
+  },
+  "vm_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "/subscriptions/a66504fd-1e3a-4c95-8fbe-778636695624/resourceGroups/rg-dev-01/providers/Microsoft.Compute/virtualMachines/dev-vm-01"
+  }
+}
